@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+    background-color: black;
+  }
+  header {
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 10px;
+    align-items:center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+  .logo {
+    height: 50px;
+    padding-left: 10px;
+  }
+  
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  li {
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+    color:#666
+  }
+ 
+.banner-card {
+    position: static;
+    background-color: #000;
+    
+}
+
+  .banner-card img{
+    width:1200px;
+    height: 700px;
+    padding-left: 125px;
+  }
+
+  .banner-text {
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: grey;
+    justify-self:auto;
+    background-color: #000;
+    display: inline;
+    left: 210px;
+    bottom: 300px;
+    
+
+  }
+ 
+  .banner-text h2 {
+    font-weight: bold;
+    position: absolute;
+    background-color: #000;
+    align-content: center;
+    display:flex;
+    flex-direction: row;  
+  }
+
+  .banner-text h4 {
+    font-weight: bold;
+    position: absolute;
+    background-color: #000;
+    align-content: center;
+    display:flex;
+    flex-direction: row;
+  }
+
+.tea-name {
+    position: static;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+    #The-Tea-of-The-Month {
+        color: gray;
+    }
+
+
+.tea-name img {
+    width: 300px;
+    height: 200px;
+    align-content: space-between;
+}
+
+.location-image {
+    height: 500px;
+    width: 1200px;
+    padding-bottom: 200px;
+    align-self: center;
+    margin-bottom: 30px;
+    padding-left: 125ps;
+}
+  
+  
+  /*Footer Section*/
+  .footer {
+    padding: 60px 0px;
+    background-color: #000;
+    color: gray;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    justify-self: center;
+  }
+  
+  .footer h5 {
+    font-size:12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: gray;
+    text-align: left;
+  }
